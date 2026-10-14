@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farmer to Consumer Direct Market</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">🌱 FarmDirect</div>
+    <nav><a href="#products">Products</a><a href="#about">About</a><a href="#cart">Cart <span id="cart-count">0</span></a></nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">FRESH FROM LOCAL FARMS</p>
+        <h1>From farmers<br>straight to your table.</h1>
+        <p>Discover seasonal fruits and vegetables from local growers.</p>
+        <a class="button" href="#products">Shop fresh produce</a>
+      </div>
+      <div class="hero-art" aria-label="Fresh produce illustration">🥬 🍅 🥕<br>🍎 🌽 🥦</div>
+    </section>
+    <section id="products" class="section">
+      <div class="section-heading"><div><p class="eyebrow">OUR MARKET</p><h2>Fresh picks</h2></div><input id="search" type="search" placeholder="Search produce..." aria-label="Search produce"></div>
+      <div id="product-grid" class="product-grid"></div>
+    </section>
+    <section id="cart" class="section cart-section">
+      <div><p class="eyebrow">YOUR BASKET</p><h2>Shopping cart</h2></div>
+      <div id="cart-items"><p class="empty">Your cart is empty. Add something fresh!</p></div>
+      <div class="cart-footer"><strong>Total: <span id="cart-total">₹0</span></strong><button id="checkout" class="button">Place demo order</button></div>
+    </section>
+    <section id="about" class="about section">
+      <h2>Better for farmers. Fresher for you.</h2>
+      <p>FarmDirect is a student project prototype that demonstrates direct produce shopping without unnecessary middlemen.</p>
+    </section>
+  </main>
+  <footer>© 2026 FarmDirect · Student project prototype</footer>
+  <script src="app.js"></script>
+</body>
+</html>
